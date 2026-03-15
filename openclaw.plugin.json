@@ -1,0 +1,22 @@
+{
+  "id": "youtube-assistant",
+  "name": "YouTube Assistant",
+  "description": "YouTube video transcription, summarization, and download tool.",
+  "skills": ["./skills"],
+  "configSchema": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "whisperUrl": {
+        "type": "string",
+        "description": "Whisper STT service URL",
+        "default": "http://127.0.0.1:8765"
+      },
+      "downloadDir": {
+        "type": "string",
+        "description": "Directory for downloaded videos",
+        "default": "~/Downloads"
+      }
+    }
+  }
+}

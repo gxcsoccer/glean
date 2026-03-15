@@ -1,0 +1,14 @@
+{
+  "name": "@openclaw/youtube-assistant",
+  "version": "0.1.0",
+  "description": "YouTube video transcription, summarization, and download for OpenClaw",
+  "type": "module",
+  "dependencies": {
+    "@sinclair/typebox": "0.34.48"
+  },
+  "openclaw": {
+    "extensions": [
+      "./index.ts"
+    ]
+  }
+}

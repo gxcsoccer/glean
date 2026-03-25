@@ -1,6 +1,6 @@
 # youtube-assistant
 
-OpenClaw 插件 — YouTube 视频转录、总结与下载工具。
+OpenClaw 插件 — 一句话把任意 YouTube 视频变成文字稿、精华总结和本地文件。
 
 ## 功能
 
